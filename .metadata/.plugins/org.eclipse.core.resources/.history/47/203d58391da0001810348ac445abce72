@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ExercicioEqSegGrau">
+        <property name="context-root" value="ExercicioEqSegGrau"/>
+        <property name="java-output-path" value="/ExercicioEqSegGrau/build/classes"/>
+    </wb-module>
+</project-modules>
