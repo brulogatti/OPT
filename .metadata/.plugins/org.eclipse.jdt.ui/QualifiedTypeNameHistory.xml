@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.projaula3.entidade.Funcionario"/>
+<fullyQualifiedTypeName name="br.com.projaula3.dados.FuncionarioBD"/>
+<fullyQualifiedTypeName name="br.com.cadastro.entidade.Pessoa"/>
+<fullyQualifiedTypeName name="br.com.cadastro.dados.PessoaBD"/>
+</qualifiedTypeNameHistroy>
