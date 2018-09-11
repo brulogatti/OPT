@@ -25,11 +25,10 @@ public class ProblemaDB {
 		try {
 
 			PreparedStatement stmt = this.connection
-					.prepareStatement("INSERT INTO PROBLEMA (id, descricao, nome) values (?, ?, ?)");
+					.prepareStatement("INSERT INTO PROBLEMA (descricao, nome) values (?, ?)");
 
-			stmt.setInt(1, problema.getId());
-			stmt.setString(2, problema.getDescricao());
-			stmt.setString(3, problema.getNome());
+			stmt.setString(1, problema.getDescricao());
+			stmt.setString(2, problema.getNome());
 			stmt.execute();
 			return true;
 
@@ -88,7 +87,7 @@ public class ProblemaDB {
 		try {
 
 			PreparedStatement stmt = this.connection
-					.prepareStatement("DELETE FROM PROBLEMA WHERE CODIGO =?");
+					.prepareStatement("DELETE FROM PROBLEMA WHERE ID =?");
 
 			stmt.setInt(1, id);
 

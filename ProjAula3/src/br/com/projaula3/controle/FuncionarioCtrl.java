@@ -1,6 +1,8 @@
 package br.com.projaula3.controle;
 
 import java.io.IOException;
+import java.sql.SQLException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -39,10 +41,14 @@ public class FuncionarioCtrl extends HttpServlet {
 		funcionario.setNome(nome);
 		funcionario.setTelefone(telefone);
 		
-		if(new FuncionarioBD().insert(funcionario)) {
-			msg = "Registro inserido com sucesso!";
-		}else {
-			msg = "Erro ao inserir registro!";
+		try {
+			if(new FuncionarioBD().insert(funcionario)) {
+				msg = "Registro inserido com sucesso!";
+			}else {
+				msg = "Erro ao inserir registro!";
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 		
 		request.setAttribute("msg", msg);

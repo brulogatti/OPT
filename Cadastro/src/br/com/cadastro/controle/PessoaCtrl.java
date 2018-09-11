@@ -1,6 +1,8 @@
 package br.com.cadastro.controle;
 
 import java.io.IOException;
+import java.sql.SQLException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,10 +16,11 @@ import br.com.cadastro.entidade.Pessoa;
 
 @WebServlet("/PessoaCtrl")
 public class PessoaCtrl extends HttpServlet {
-	private static final long serialVersionUID = 1L;
        
+	private static final long serialVersionUID = -4495468118325307774L;
 
-    public PessoaCtrl() {
+
+	public PessoaCtrl() {
 
     }
 
@@ -67,10 +70,14 @@ public class PessoaCtrl extends HttpServlet {
 		pessoa.setTipopessoa(tipopessoa);
 		cont=0;
 		
-		if(new PessoaBD().insert(pessoa)) {
-			msg = "Registro inserido com sucesso!";
-		}else {
-			msg = "Erro ao inserir registro!";
+		try {
+			if(new PessoaBD().insert(pessoa)) {
+				msg = "Registro inserido com sucesso!";
+			}else {
+				msg = "Erro ao inserir registro!";
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 		
 		request.setAttribute("msg", msg);

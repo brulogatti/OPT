@@ -16,8 +16,8 @@
   <tr>
     <td>Tipo de Pessoa:*</td>
     <td>
-    <input type="radio" name="pessoa" value="fisica"> Física
-  <input type="radio" name="pessoa" value="juridica"> Jurídica </td>
+    <input type="radio" name="pessoa" value="Fisica"> Física
+  	<input type="radio" name="pessoa" value="Juridica"> Jurídica </td>
   </tr>
   <tr>
     <td>CNPJ/CPF:*</td>
@@ -55,7 +55,7 @@
   <option value="Distrito Federal">DF</option>
   <option value="Espirito Santo">ES</option>
   <option value="Goias">GO</option>
-  <option value="Maranhão">MA</option>
+  <option value="Maranhao">MA</option>
   <option value="Mato Grosso">MT</option>
   <option value="Mato Grosso do Sul">MS</option>
   <option value="Minas Gerais">MG</option>
@@ -70,7 +70,7 @@
   <option value="Rondonia">RO</option>
   <option value="Roraima">RR</option>
   <option value="Santa Catarina">SC</option>
-  <option value="São Paulo">SP</option>
+  <option value="Sao Paulo">SP</option>
   <option value="Sergipe">SE</option>
   <option value="Tocantins">TO</option>
 </select></td>
@@ -97,6 +97,9 @@
 
 </form>
 
+<% if (request.getAttribute("msg") != null){ %>
+<b>	<%=request.getAttribute("msg") %> </b>
+<%} %>
 
 </body>
 </html>
