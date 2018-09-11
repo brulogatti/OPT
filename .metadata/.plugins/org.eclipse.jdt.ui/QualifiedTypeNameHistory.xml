@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
     <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="br.com.revista.entidade.Revista"/>
+    <fullyQualifiedTypeName name="br.com.revista.dados.RevistaBD"/>
 </qualifiedTypeNameHistroy>
