@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
+import br.com.revista.controle.RevistaCtrl;
+import br.com.revista.entidade.Consulta;
 import br.com.revista.entidade.Revista;
 import br.com.revista.util.Conexao;
 
@@ -42,5 +45,40 @@ public class RevistaBD {
 		}
 		return false;
 	}
+	
+	public ArrayList<Revista> getAll() {
+
+		ArrayList<Revista> revista = new ArrayList<Revista>();
+		try {
+			ps = this.connection.prepareStatement("SELECT id, nome, ano, mes, qtdpg FROM REVISTA");
+			rs = ps.executeQuery();
+
+			while (rs.next()) {
+				revista.add(new Revista(rs.getInt("id"), rs.getString("nome"), rs.getInt("ano"), rs.getString("mes"), rs.getInt("qtdpg")));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return revista;
+	}
+	
+	public ArrayList<Revista> consultaId(Consulta consulta) {
+
+		ArrayList<Revista> revista = new ArrayList<Revista>();
+		try {
+			ps = this.connection.prepareStatement("SELECT id, nome, ano, mes, qtdpg FROM REVISTA WHERE nome LIKE '%"+consulta.getId()+"%'");
+			//ps.setString(1,consulta.getId());
+			rs = ps.executeQuery();
+
+			while (rs.next()) {
+				revista.add(new Revista(rs.getInt("id"), rs.getString("nome"), rs.getInt("ano"), rs.getString("mes"), rs.getInt("qtdpg")));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return revista;
+	}
+
+		
 
 }

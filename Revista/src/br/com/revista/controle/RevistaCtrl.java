@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.swing.JOptionPane;
 
 import br.com.revista.dados.RevistaBD;
+import br.com.revista.entidade.Consulta;
 import br.com.revista.entidade.Revista;
 
 
@@ -27,9 +28,9 @@ public class RevistaCtrl extends HttpServlet {
     }
 
 	
-	//protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-	//}
+	/*protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+			     
+	}*/
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -8,6 +8,20 @@ public class Revista {
 	private String mes;
 	private int qtdpg;
 	
+	
+	
+	public Revista(int id, String nome, int ano, String mes, int qtdpg) {
+		this.id=id;
+		this.nome=nome;
+		this.ano=ano;
+		this.mes=mes;
+		this.qtdpg=qtdpg;
+	}
+	
+	public Revista() {
+		
+	}
+	
 	public int getId() {
 		return id;
 	}
