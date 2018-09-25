@@ -1547,3 +1547,327 @@ org.xml.sax.SAXException: FWK005 parse may not be called while parsing.
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 273 2018-09-18 21:20:55.236
+!MESSAGE Problems cleaning up history store.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(null)[567]: java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2018-09-18 21:20:55.303
+!MESSAGE Could not read metadata for '/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjAula3/.indexes/e4/50/81/93/58/history.index'.
+!STACK 0
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2018-09-24 09:36:56.943 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 4 273 2018-09-24 11:13:45.974
+!MESSAGE Problems cleaning up history store.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(null)[567]: java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2018-09-24 11:13:46.189
+!MESSAGE Could not read metadata for '/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjAula3/.indexes/e4/50/81/93/58/history.index'.
+!STACK 0
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-09-24 11:13:55.744
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.util.concurrent.TimeoutException: Timed out waiting for org.eclipse.epp.logging.aeri.ide.server ServerConnection [STOPPING] to reach a terminal state. Current state: STOPPING
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.disposed(InjectorImpl.java:450)
+	at org.eclipse.e4.core.internal.di.Requestor.disposed(Requestor.java:156)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:78)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:111)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.handleInvalid(TrackableComputationExt.java:74)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:178)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:163)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:163)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:163)
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.dispose(EclipseContextOSGi.java:99)
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.bundleChanged(EclipseContextOSGi.java:141)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:908)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:168)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:634)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.util.concurrent.TimeoutException: Timed out waiting for org.eclipse.epp.logging.aeri.ide.server ServerConnection [STOPPING] to reach a terminal state. Current state: STOPPING
+	at com.google.common.util.concurrent.AbstractService.awaitTerminated(AbstractService.java:317)
+	at com.google.common.util.concurrent.AbstractIdleService.awaitTerminated(AbstractIdleService.java:199)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.diStop(ServerConnection.java:392)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 25 more
+
+!ENTRY org.eclipse.debug.core 4 125 2018-09-24 11:14:27.627
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:297)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2385)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:661)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1675)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1594)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2018-09-24 11:14:29.147
+!MESSAGE Terminate failed
+!SESSION 2018-09-25 17:50:38.395 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 17:56:48.130
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 17:56:48.397
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 17:56:48.660
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 17:56:48.661
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 4 273 2018-09-25 17:59:53.552
+!MESSAGE Problems cleaning up history store.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(null)[567]: java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2018-09-25 17:59:53.602
+!MESSAGE Could not read metadata for '/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjAula3/.indexes/e4/50/81/93/58/history.index'.
+!STACK 0
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2018-09-25 19:29:33.412 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-09-25 19:31:54.138
+!MESSAGE Server Tomcat v9.0 Server at localhost was unable to start within 60 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-09-25 19:33:21.586
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-09-25 19:33:41.902
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.core.resources 4 273 2018-09-25 19:35:27.709
+!MESSAGE Problems cleaning up history store.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(null)[567]: java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2018-09-25 19:35:27.840
+!MESSAGE Could not read metadata for '/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjAula3/.indexes/e4/50/81/93/58/history.index'.
+!STACK 0
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2018-09-25 19:35:49.860 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 19:43:35.938
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 19:43:36.029
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 19:43:36.227
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-25 19:43:36.227
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 4 273 2018-09-25 19:44:21.515
+!MESSAGE Problems cleaning up history store.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(null)[567]: java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2018-09-25 19:44:21.601
+!MESSAGE Could not read metadata for '/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjAula3/.indexes/e4/50/81/93/58/history.index'.
+!STACK 0
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:272)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:299)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:275)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:98)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:109)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:73)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:165)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1213)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)

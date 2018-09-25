@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ProjAula3" path="/ProjAula3" reloadable="true" source="org.eclipse.jst.jee.server:ProjAula3"/><Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Cadastro" path="/Cadastro" reloadable="true" source="org.eclipse.jst.jee.server:Cadastro"/><Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ProjBancoAula4" path="/ProjBancoAula4" reloadable="true" source="org.eclipse.jst.jee.server:ProjBancoAula4"/><Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Revista" path="/Revista" reloadable="true" source="org.eclipse.jst.jee.server:Revista"/></Host>
+      <Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bruna/Documentos/OPT/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Revista" path="/Revista" reloadable="true" source="org.eclipse.jst.jee.server:Revista"/></Host>
     </Engine>
   </Service>
 </Server>

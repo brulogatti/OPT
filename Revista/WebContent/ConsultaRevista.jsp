@@ -47,5 +47,10 @@
 </table>
 </div>
 
+	<form align="center" action="CadastroRevista.jsp" method="post">
+
+		<br> <input type="submit" value="Voltar" />
+	</form>
+
 </body>
 </html>
