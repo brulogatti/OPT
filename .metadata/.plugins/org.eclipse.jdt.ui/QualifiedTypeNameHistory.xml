@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="br.com.revista.entidade.Revista"/>
     <fullyQualifiedTypeName name="br.com.revista.dados.RevistaBD"/>
+    <fullyQualifiedTypeName name="br.com.prova.entidade.Nome"/>
+    <fullyQualifiedTypeName name="br.com.prova.dados.NomeBD"/>
 </qualifiedTypeNameHistroy>
