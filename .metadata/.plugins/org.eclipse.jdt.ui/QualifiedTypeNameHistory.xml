@@ -12,4 +12,22 @@
     <fullyQualifiedTypeName name="br.com.revista.dados.RevistaBD"/>
     <fullyQualifiedTypeName name="br.com.prova.entidade.Nome"/>
     <fullyQualifiedTypeName name="br.com.prova.dados.NomeBD"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="com.projalunos.papelaria.repository.PostRepository"/>
+    <fullyQualifiedTypeName name="com.projalunos.papelaria.service.PostService"/>
+    <fullyQualifiedTypeName name="com.projalunos.papelaria.model.Post"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.repository.LocacaoRepository"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.repository.CarroRepository"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.repository.FuncionarioRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaRepositories"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.service.LocacaoService"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.model.Locacao"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.service.CarroService"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.model.Carro"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.service.FuncionarioService"/>
+    <fullyQualifiedTypeName name="com.projcontrolelocacaocarro.model.Funcionario"/>
 </qualifiedTypeNameHistroy>
